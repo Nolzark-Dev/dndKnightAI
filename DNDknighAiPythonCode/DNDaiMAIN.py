@@ -28,22 +28,4 @@ finalisedEhp = dicegit + MNSTERHP
 finalisedEAC = dicegit + MNSTERAC
 finalisedEATK = dicegit + MNSTERATK
 ########################################################
-EACresults = finalisedEAC - finalisedknightATK
-print("Enemy Ac after calc:")
-print(EACresults)
-########################
-if EACresults <= 0:
-    print("AC DEFEATED ENEMY TURN")
-if EACresults > 0:
-    print("AC LOSS ENEMY TURN")
-#######################
-KACresults = finalisedknightAC - finalisedEATK
-print("Knight Ac after Calc: ")
-print(KACresults)
-#########################
-if KACresults <= 0:
-    print("AC DEFEATED BY ENEMY, KNIGHT TURN")
-if KACresults > 0:
-    print("AC LOSS BY ENEMY, KNIGHT TURN")
-########################
-EHPresults = finalisedEhp - finalisedknightATK
+
